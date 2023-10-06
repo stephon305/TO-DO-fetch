@@ -1,12 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
 
-/* 
+body {
+    font-family: 'Eater', cursive;
+    background: url("https://media.istockphoto.com/id/1338907781/ja/%E3%82%B9%E3%83%88%E3%83%83%E3%82%AF%E3%83%95%E3%82%A9%E3%83%88/%E3%83%8F%E3%83%AD%E3%82%A6%E3%82%A3%E3%83%BC%E3%83%B3%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%89-%E6%9C%A8%E8%A3%BD%E3%83%9C%E3%83%BC%E3%83%89%E3%81%A7%E5%A4%9C%E3%81%AB%E5%A2%93%E5%9C%B0%E3%81%A7%E3%82%AB%E3%83%9C%E3%83%81%E3%83%A3%E3%81%A8%E3%82%B9%E3%82%B1%E3%83%AB%E3%83%88%E3%83%B3.jpg?s=1024x1024&w=is&k=20&c=Onfxw3uI-fRf8rmgxUx9VuqMJhJjZZTyqcVbG-1fShw=");
+    background-size: cover;
+    
+}
+ul {
+    list-style: none;
+}
+li {
+    border-bottom: gray 1px solid
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.todoList{
+    padding-top: 275px;
+    color: orange;
+    font-size: 22px;
+}
+input{
+    background: #40257d;
+    border: none;
+}
